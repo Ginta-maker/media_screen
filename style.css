@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    margin: 20px;
+}
+.header h1 { 
+    color: rgb(246, 100, 84);
+    font-size: 2.5em;
+    margin: 35px 40px;
+}
+.header-descr {
+    word-wrap: normal;
+    color: rgb(121, 121, 121);
+    margin: 0 40px;
+}
+button {
+    border-radius: 20px;
+    border-color: rgb(235, 70, 51);
+    padding: 10px 25px;
+    margin: 10px 40px;
+}
+.card {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+   
+}
+.card-header {
+    font-weight: bold;
+    margin: 10px;
+}
+.description{
+    color: rgb(114, 114, 114);
+    font-style: italic;
+    margin: 10px;
+}
+.first-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+.title-descr {
+    color: rgb(135, 135, 135);
+    margin: 15px;
+}
+img {
+    width: 100%;
+    margin: 10px
+}
+.second-wrapper {
+    background-color: rgba(204, 204, 204, 0.349);
+    padding: 10px;
+}
+.second-title {  
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 20px;
+}
+.recomm {
+    text-align: center;
+    margin: 0 25px;
+}
+.sec-cards {
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+}
+.subt {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.subtitle {
+    color: rgb(161, 161, 161);
+    font-style: italic;
+    margin: 15px 0;
+}
+.third-wrapper {
+    margin: 10px;
+}
+.img-desc {
+    width: 90%;
+    border: 5px solid rgb(245, 158, 148);
+    margin: 5px 10px;
+    padding: 10px;
+}
+.have {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px;
+}
+.de-have {
+    margin: 20px;
+    color: rgb(140, 139, 139);
+}
+.last-wrapper {
+    margin: 30px;
+    padding: 20px;
+}
+.image {
+    max-width: 100%;
+    height: 350px;
+    margin: 20px;
+}
+.last-descr {
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    height: 350px;
+}
+.last-titlr {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.last-description {
+    margin: 20px 0;
+}
+@media screen and (min-width: 481px) {
+    .header h1 { 
+        font-size: 3em;
+        margin: 50px 40px;
+    }
+    .header-descr {
+        word-wrap: none;
+        margin: 15px 40px;
+        width: 60%;
+    }
+    .cards-sect {
+        
+        padding: 10px;
+    }
+    .card {
+        width: 90%;
+    }
+    .card-header {
+        font-size: 1.4em;
+    }
+    .title {
+        font-size: 1.6em;
+    }
+}
+@media screen and (min-width: 769px) {
+    .header {
+        background-image: url(headerimg.jpg);
+    }
+    .header h1 {
+        width: 50%;
+        font-size: 5.2em;
+        padding-top: 70px;
+    }
+    .header-descr {
+        font-size: 1.8em;
+        margin-top: -20px;
+        color: rgb(82, 80, 80);
+    }
+    .cards-sect {
+        display: flex;
+    }
+    .card {
+        background-color: #fff;
+        width: 28%;
+        margin: 8px ;
+
+    }
+    button {
+        background-color: rgba(235, 140, 129, 0.472);
+        border: none;
+        padding: 15px 30px;
+        margin: 10px 40px;
+        font-size: 1.2em;
+    }
+    .card-header {
+        font-size: 1.6em;
+        margin: 20px;
+    }
+    .description {
+        font-size: 1.4em;
+        margin: 20px;
+    }
+    .cards-sect {
+        margin-bottom: 50px;
+    }
+    .title {
+        font-size: 2.6em;
+    }
+    .title-descr {
+        font-size: 1.6em;
+        margin-bottom: 25px;
+    }
+    figure {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 46%
+    }
+    .second-title {
+        font-size: 2.4em;
+        margin: 30px;
+    }
+    .recomm {
+        font-size: 1.4em;
+        width: 90%;
+    }
+    .sec-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+    .sec-cards {
+        width: 40%;
+        padding: 10px;
+    }
+    .subt {
+        font-size: 1.6em;
+    }
+    .subtitle {
+        font-size: 1.3em;
+    }
+    .third-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px;
+    }
+    .img-desc {
+        width: 44%;
+    }
+    .have {
+        font-size: 1.8em;
+        padding: 20px;
+    }
+    .de-have {
+        font-size: 1.6em;
+        padding: 10px 20px;
+    }
+    .last-wrapper {
+        display: flex;
+    }
+    .last-descr {
+        width: 40%;
+        height: auto;
+    }
+    .last-titlr {
+        font-size: 1.8em;
+        margin: 20px;
+    }
+    .last-description {
+        font-size: 1.4em;
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 1025px){ 
+    .cards-sect {
+        margin-left: 90px;
+    }
+    .title {
+        font-size: 2.8em;
+        margin-top: 60px;
+    }
+    .title-descr {
+        font-size: 1.7em;
+        margin: 30px;
+    }
+    img {
+        width: 31%;
+    }
+    figure {
+        margin-left: 30px;
+    }
+    .second-title {
+        font-size: 2.7em;
+    }
+    .recomm {
+        font-size: 1.6em;
+    }
+    .sec-cards {
+        width: 21%;
+    }
+    .second-wrapper {
+        margin-left: 30px;
+    }
+    .img-desc {
+        width: 23%;
+    }
+    .third-wrapper img {
+        width: 23%;
+    }
+    .third-wrapper {
+        margin-left: 30px;
+    }
+    .last-descr {
+        width: 52%;
+    }
+    .last-wrapper img {
+        width: 52%;
+    }
+    .last-titlr {
+        font-size: 2.2em;
+    }
+    .last-description {
+        margin: 20px;
+        line-height: 2em;
+    }
+    .last-wrapper button {
+        margin-top: 70px;
+        margin-left: 90px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .header h1 {
+        font-size: 5.7em;
+        color: rgba(200, 38, 20, 0.692);
+    }
+    
+}   
